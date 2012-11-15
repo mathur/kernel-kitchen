@@ -1,5 +1,6 @@
-MODIFIED BY ROHAN TO WORK WITH THE HTC ONE XL'S WEIRD AND DERPY KERNEL STRUCTURE
+ONLY WORKS ON THE HTC ONE XL DO NOT TRY USING IT FOR OTHER DEVICES
 ====================================
+modified by rohan, original author is unknown to me
 #Android Kernel Kitchen
 tools to tinker with kernels and ramdisks 
 
