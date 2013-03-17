@@ -56,7 +56,7 @@ then
 	gcc rsa.o sha.o mkbootimg.c -w -o mkbootimg.$ARCH
 	rm -f *.o
 fi
-./mkbootimg.$ARCH --cmdline "console=ttyHSL0,115200,n8" --kernel ./zImage --ramdisk ./initrd.img  --base 80400000 --ramdiskaddr 81800000 -o ./boot.img 
+./mkbootimg.$ARCH --cmdline "console=ttyHSL0,115200,n8 androidboot.hardware=qcom" --kernel ./zImage --ramdisk ./initrd.img  --base 80400000 --ramdiskaddr 81800000 -o ./boot.img 
 
 rm -f zImage initrd.img
 mv -f boot.img ../../output/.
